@@ -12,8 +12,10 @@ header {
 }
 
 main {
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 
 .step-box {
@@ -73,6 +75,7 @@ main {
 
 p {
   font-size: 12px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -98,5 +101,10 @@ footer {
 
   .step-item:nth-child(2) {
     margin: 20px 0;
+  }
+
+  p {
+    margin: 0;
+    padding-bottom: 10px;
   }
 }
